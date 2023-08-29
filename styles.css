@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body{
+  background-color: #f8cfcf;
+}
+table{
+ background-color: aliceblue;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
+ box-shadow: 2px 2px 4px 4px rgb(95, 93, 93);
+ border-bottom: 2px solid red ;
+}
+th{
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  border-collapse: collapse;
+  border-color: red;
+  color: white;
+}
+
+table,td{
+ border-collapse: collapse;
+ padding: 15px;
+}
+
+#caption::after {
+  content: "\1F4D3"; 
+  font-size: x-large;
+  margin-right: 10px;
+}
+
+#kalvium{
+  justify-content: flex-end;
+  width:350px;
+  padding-top:20px;
+}
+
+#caption{
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+#lunch{
+  font-family: 'Phudu', cursive;
+  font-size: larger;
+}
+#student{
+  padding-right: 19%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-top: 73px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 30px;
+  color: red;
+}
+#courses{
+  padding-right: 10%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-top: 73px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 30px;
+  color: red;
+}
+#profile{
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  width: 70px;
+  margin-top: 50px;
+  padding-right: 25%;
+
+}
+
+tr:nth-of-type(even){
+  background-color: white;
+}
+tr:nth-of-type(odd){
+  background-color: lightgray ;
+}
